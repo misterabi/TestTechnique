@@ -1,0 +1,56 @@
+
+.employee-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .employee-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .employee-details {
+    flex-grow: 1;
+  }
+  
+  .employee-name {
+    font-weight: bold;
+  }
+  
+  .employee-position {
+    font-size: 12px;
+  }
+  
+  .employee-actions {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .employee-actions button {
+    margin-left: 10px;
+  }
+
+  .edit {
+    width: 50px;
+    height: 50px;
+    padding-left: 0px;
+  }
+  .edit img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .delete {
+    background-color: rgb(235, 128, 128);
+    width: 50px;
+    height: 50px;
+    padding-left: 0px;
+    padding-top: 0%;
+  }
+  .delete img{
+    width: 50px;
+    height: 50px;
+  }

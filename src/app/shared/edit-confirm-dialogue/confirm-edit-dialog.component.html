@@ -1,0 +1,8 @@
+<div class="confirm-dialog">
+  <h3>Employees Edit</h3>
+  Position: <input type="text" class="editBar" [value]="position" (input)="onPositionChange($event)" name="position" />
+  <div class="buttons">
+    <button class="save" (click)="confirm()">Save</button>
+    <button class="cancel" (click)="cancel()">Cancel</button>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="employee-container">
+    <img src="{{ UserIcon}}" alt="User" class="employee-icon"/>
+    <div class="employee-details">
+        <div class="employee-name">{{ employee.FirstName }} {{ employee.SecondName }}</div>
+        <div class="employee-position">{{ employee.Position }}</div>
+    </div>
+    <div class="employee-actions">
+        <button (click)="editEmployee(employee)" [disabled]="employee.Blocked" class="edit">
+            <img src="{{ UserEditIcon}}" alt="Edit" />
+        </button>
+        <button (click)="deleteEmployee(employee)" class="delete">
+            <img src="{{ UserDeleteIcon}}" alt="Delete" />
+        </button>
+    </div>
+
+</div>
+  
